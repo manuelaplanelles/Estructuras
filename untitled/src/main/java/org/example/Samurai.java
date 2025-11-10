@@ -7,44 +7,53 @@ public class Samurai {
             Scanner teclado = new Scanner(System.in);
             Random random = new Random();
 
-            System.out.println("Equipo 1");
-            System.out.println("Introduce potencia de los samurais:");
-            String entrada1 = teclado.nextLine();
-
-            String[] textos1 = entrada1.split(" ");
-            int[] equipo1 = new int[textos1.length];
             int suma1 = 0;
-
-            for (int i = 0; i < textos1.length; i++) {
-                equipo1[i] = Integer.parseInt(textos1[i]);
-                suma1 += equipo1[i];
-            }
-
-            if (suma1 != 30) {
-                System.out.println("ERROR. La potencia total no suma 30.");
-
-            }
-            System.out.println("Equipo completado.");
-
-
-            System.out.println("Equipo 2");
-            System.out.println("Introduce potencia de los samurais:");
-            String entrada2 = teclado.nextLine();
-            String[] textos2 = entrada2.split(" ");
-
-            int[] equipo2 = new int[textos2.length];
             int suma2 = 0;
+            int[] equipo1 = null;
+            int[] equipo2 = null;
 
-            for (int i = 0; i < textos2.length; i++) {
-                equipo2[i] = Integer.parseInt(textos2[i]);
-                suma2 += equipo2[i];
-            }
+            do {
+                System.out.println("Equipo 1");
+                System.out.println("Introduce potencia de los samurais:");
+                String entrada1 = teclado.nextLine();
 
-            if (suma2 != 30) {
-                System.out.println("ERROR. La potencia total no suma 30.");
+                String[] textos1 = entrada1.split("[ \\.\\?\\,]");
+                equipo1 = new int[textos1.length];
 
-            }
-            System.out.println("Equipo completado.");
+                for (int i = 0; i < textos1.length; i++) {
+                    equipo1[i] = Integer.parseInt(textos1[i]);
+                    suma1 += equipo1[i];
+                }
+
+                if (suma1 != 30) {
+                    System.out.println("ERROR. La potencia total no suma 30.");
+                    suma1 = 0;
+                }
+
+            }while (suma1 != 30);
+                    System.out.println("Equipo completado.");
+
+
+            do {
+                System.out.println("Equipo 2");
+                System.out.println("Introduce potencia de los samurais:");
+                String entrada2 = teclado.nextLine();
+
+                String[] textos2 = entrada2.split("[ \\.\\?\\,]");
+                equipo2 = new int[textos2.length];
+
+                for (int i = 0; i < textos2.length; i++) {
+                    equipo2[i] = Integer.parseInt(textos2[i]);
+                    suma2 += equipo2[i];
+                }
+
+                if (suma2 != 30) {
+                    System.out.println("ERROR. La potencia total no suma 30.");
+                    suma2 = 0;
+                }
+
+            }while (suma2 != 30);
+                System.out.println("Equipo completado.");
 
 
             System.out.println("¡Empieza la batalla!");
@@ -80,7 +89,7 @@ public class Samurai {
 
             if (bajas1 > 3) {
                 System.out.println("¡Equipo 2 GANA! Equipo 1 ha tenido " + bajas1 + " bajas.");
-                        break;
+                break;
             }
             if (bajas2 > 3) {
                 System.out.println("¡Equipo 1 GANA! Equipo 2 ha tenido " + bajas2 + " bajas.");
