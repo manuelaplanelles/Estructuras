@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b39f5e-da32-45d9-8d22-0b873721d8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/org/example/Casino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/main/java/org/example/Casino.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/main/java/org/example/Casino.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,5 +87,16 @@
       <updated>1762281642186</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/main/java/org/example/Casino.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
