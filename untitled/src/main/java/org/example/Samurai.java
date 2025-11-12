@@ -88,7 +88,7 @@ public class Samurai {
 
 
                 if (bajas1 > 3 && bajas2 > 3) {
-                    System.out.println("¡EMPATE! Ambos equipos han tenido " + bajas1 + " bajas.");
+                    System.out.println("¡EMPATE! Ambos equipos han tenido " + bajas1 + " bajas. Mueren ambos.");
                     break;
                 }
                 else if (bajas1 > 3) {
