@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="56b39f5e-da32-45d9-8d22-0b873721d8ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/untitled/src/main/java/org/example/Casino.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/main/java/org/example/Casino.java" afterDir="false" />
+>>>>>>> c2e59b845a67b0799aff0e3a9ebbbe61dd8528b0
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LetrasNavidad.executor": "Run",
     "Application.Samurai.executor": "Run",
     "Application.ejercicio4.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -40,14 +45,21 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/manue/Desktop/estructura",
+    "last_opened_file_path": "C:/Users/1DAW/Desktop/Estructuras",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Samurai">
+  <component name="RunManager" selected="Application.LetrasNavidad">
+    <configuration name="LetrasNavidad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LetrasNavidad" />
+      <module name="Programacion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Samurai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Samurai" />
       <module name="Programacion" />
@@ -64,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LetrasNavidad" />
         <item itemvalue="Application.Samurai" />
         <item itemvalue="Application.ejercicio4" />
       </list>
