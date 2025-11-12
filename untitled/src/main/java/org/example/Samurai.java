@@ -87,14 +87,18 @@ public class Samurai {
             }
 
 
-            if (bajas1 > 3) {
-                System.out.println("¡Equipo 2 GANA! Equipo 1 ha tenido " + bajas1 + " bajas.");
-                break;
-            }
-            if (bajas2 > 3) {
-                System.out.println("¡Equipo 1 GANA! Equipo 2 ha tenido " + bajas2 + " bajas.");
-                break;
-            }
+                if (bajas1 > 3 && bajas2 > 3) {
+                    System.out.println("¡EMPATE! Ambos equipos han tenido " + bajas1 + " bajas.");
+                    break;
+                }
+                else if (bajas1 > 3) {
+                    System.out.println("¡Equipo 2 GANA! Equipo 1 ha tenido " + bajas1 + " bajas.");
+                    break;
+                }
+                else if (bajas2 > 3) {
+                    System.out.println("¡Equipo 1 GANA! Equipo 2 ha tenido " + bajas2 + " bajas.");
+                    break;
+                }
         }
         }
     }
