@@ -30,9 +30,9 @@ public class Casino {
         if (numero_apuesta!=0){
 
             System.out.println("Introduce color: ");
-            color_apuesta = teclado.next();
+           // int color_apuesta = teclado.next();
 
-            if (!Arrays.asList(colores).contains(color_apuesta.toLowerCase())){
+            //if (!Arrays.asList(colores).contains(color_apuesta.toLowerCase())){
                 System.out.println("ERROR. El color debe ser rojo-negro.");
                 return;
             }
@@ -46,6 +46,5 @@ public class Casino {
             }
 
         }
-    }
     }
 

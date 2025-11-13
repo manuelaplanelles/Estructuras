@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b39f5e-da32-45d9-8d22-0b873721d8ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/org/example/duplicado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/src/main/java/org/example/Casino.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/main/java/org/example/Casino.java" afterDir="false" />
     </list>
@@ -35,6 +36,7 @@
   "keyToString": {
     "Application.LetrasNavidad.executor": "Run",
     "Application.Samurai.executor": "Run",
+    "Application.duplicado.executor": "Run",
     "Application.ejercicio4.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,7 +51,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LetrasNavidad">
+  <component name="RunManager" selected="Application.duplicado">
     <configuration name="LetrasNavidad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LetrasNavidad" />
       <module name="Programacion" />
@@ -64,6 +66,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="duplicado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="duplicado" />
+      <module name="Programacion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ejercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejercicio4" />
       <module name="Programacion" />
@@ -73,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.duplicado" />
         <item itemvalue="Application.LetrasNavidad" />
         <item itemvalue="Application.Samurai" />
         <item itemvalue="Application.ejercicio4" />
