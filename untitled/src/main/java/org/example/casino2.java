@@ -1,8 +1,9 @@
 import java.util.Arrays;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class Casino {
+public class casino2 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         Random aleatorio = new Random();
@@ -30,7 +31,11 @@ public class Casino {
         if (numero_apuesta!=0){
 
             System.out.println("Introduce color: ");
+<<<<<<< HEAD:untitled/src/main/java/org/example/Casino.java
            // int color_apuesta = teclado.next();
+=======
+            //color_apuesta = teclado.next();
+>>>>>>> 78ac8d37697d9ca05ffec8eadc386639c21e1334:untitled/src/main/java/org/example/casino2.java
 
             //if (!Arrays.asList(colores).contains(color_apuesta.toLowerCase())){
                 System.out.println("ERROR. El color debe ser rojo-negro.");
