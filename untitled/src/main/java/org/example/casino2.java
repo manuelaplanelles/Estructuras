@@ -30,13 +30,9 @@ public class casino2 {
 
         if (numero_apuesta!=0){
 
-            System.out.println("Introduce color: ");
-<<<<<<< HEAD:untitled/src/main/java/org/example/Casino.java
+            // System.out.println("Introduce color: ");
            // int color_apuesta = teclado.next();
-=======
             //color_apuesta = teclado.next();
->>>>>>> 78ac8d37697d9ca05ffec8eadc386639c21e1334:untitled/src/main/java/org/example/casino2.java
-
             //if (!Arrays.asList(colores).contains(color_apuesta.toLowerCase())){
                 System.out.println("ERROR. El color debe ser rojo-negro.");
                 return;
