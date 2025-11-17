@@ -11,7 +11,6 @@ public class simulacionSorteo {
 
         if (!boleto.matches("\\d{1,2}-\\d{1,2}-\\d{1,2}-\\d{1,2}-\\d{1,2}-\\d{1,2}/\\d")) {
             System.out.println("Formato inválido.");
-            teclado.close();
             return;
         }
 
