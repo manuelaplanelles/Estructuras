@@ -19,7 +19,7 @@ public class matriz3 {
             for (int j = 0; j < matriz[i].length; j++) {
 
                 if (i == j) {
-                    System.out.print(matriz[i][j] + "");
+                    System.out.print(matriz[i][j] + " ");
                 }
             }
         }
