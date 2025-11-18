@@ -5,5 +5,12 @@ public class matrices {
 
         System.out.println(matriz[1][2]);
         System.out.println(matriz[2][0]);
+
+        for (int i=0; i < matriz.length; i++){
+            for (int j=0; j < matriz[i].length;j++){
+                System.out.print(matriz[i][j]);
+        }
+            System.out.println();
+        }
     }
 }
