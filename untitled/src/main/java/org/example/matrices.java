@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class matrices {
     public static void main(String[] args) {
         int matriz[][]={{1,2,3},{4,5,6},{7,8,9}};
@@ -10,6 +12,20 @@ public class matrices {
             for (int j=0; j < matriz[i].length;j++){
                 System.out.print(matriz[i][j]);
         }
+            System.out.println();
+        }
+        //para visualizar y unicamente imprimir
+        int vector[]= {1,2,3,4};
+        for (int num : vector){
+            System.out.println(num);
+        }
+        for (int fila[]:matriz){
+            System.out.println(Arrays.toString(fila));
+        }
+        for (int fila[]:matriz){
+            for (int num :fila){
+                System.out.print(num);
+            }
             System.out.println();
         }
     }
