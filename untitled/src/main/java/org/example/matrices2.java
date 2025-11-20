@@ -16,12 +16,15 @@ public class matrices2 {
         }
         int suma = 0;
         for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
+            for (int j = 0; j < matriz[0].length; j++) {
                 suma += matriz[j][i];
             }
-        System.out.println("Clumna:" +i+" "+suma);
+            System.out.println("Columna:" + i + " " + suma);
         }
-
+        suma = 0;
+        for (int i = 0; i < matriz[0].length; i++) {
+            suma += matriz[aleatorio.nextInt(matriz.length-1) + 1][i];
+        }
+        System.out.println("1 fila: " + suma);
     }
 }
-
