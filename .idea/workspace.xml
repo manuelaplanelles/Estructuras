@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b3a0935-68e2-4c11-b0e3-29247c1747f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/org/example/matrices1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/org/example/matrices2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/main/java/org/example/matriz3.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/main/java/org/example/matriz3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,8 @@
     "Application.ejercio4.executor": "Run",
     "Application.etiquetado.executor": "Run",
     "Application.matrices.executor": "Run",
+    "Application.matrices1.executor": "Run",
+    "Application.matrices2.executor": "Run",
     "Application.matriz3.executor": "Run",
     "Application.simulacionSorteo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
